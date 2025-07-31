@@ -1,5 +1,9 @@
-import ButtonOne from '@/components/buttons/ButtonOne';
+import Card from '@/components/card/Card';
 
 export default function Home() {
-  return <ButtonOne />;
+  return (
+    <div className='h-screen w-screen bg-white'>
+      <Card />;
+    </div>
+  );
 }
