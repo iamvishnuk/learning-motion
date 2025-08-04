@@ -1,5 +1,5 @@
-import Dashboard from '@/components/Dashboard/Dashboard';
+import MotionHooks from '@/components/MotionHooks';
 
 export default function Home() {
-  return <Dashboard />;
+  return <MotionHooks />;
 }
